@@ -9,7 +9,7 @@ categories: jekyll update
 - Project Idea: [JavaSMT](https://github.com/sosy-lab/java-smt) - Integrating the SMT solver [dReal](http://dreal.github.io/) to the framework JavaSMT
 - Mentor Daniel Baier
 - Student: Julius Brehme
-- Project Proposal: Link somewhere?
+- Project Proposal: Link?
 
 ## Description
 ### Introduction to [JavaSMT](https://github.com/sosy-lab/java-smt)
@@ -29,7 +29,7 @@ The project has been completed within the duration of GSoC and is ready to be in
 ## Code Contribution
 I worked on the branch `313-adding-dreal-to-javasmt`. A pull reqeust was made to integrate the dReal solver to JavaSMT.
 - Project Repository: https://github.com/sosy-lab/java-smt
-- Pull request: link
+- Pull request: https://github.com/sosy-lab/java-smt/pull/328
 
 ## Future Improvements
 dReal does not support the usage of uninterpreted functions. If in the future dReal does support uninterpreted functions, the functionality of uninterpreted functions should also be integrated to JavaSMT, as it is quite a useful and important feature.   
