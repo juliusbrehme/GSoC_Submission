@@ -28,9 +28,9 @@ The project has been completed within the duration of GSoC and is ready to be in
 
 ## Code Contribution
 I worked on the branch `313-adding-dreal-to-javasmt`. A pull reqeust was made to integrate the dReal solver to JavaSMT.
-- Project Repository: https://github.com/sosy-lab/java-smt
-- Pull request: https://github.com/sosy-lab/java-smt/pull/328
-
+- [Project Repository](https://github.com/sosy-lab/java-smt)
+- [Pull request](https://github.com/sosy-lab/java-smt/pull/328)
+    
 ## Future Improvements
 dReal does not support the usage of uninterpreted functions. If in the future dReal does support uninterpreted functions, the functionality of uninterpreted functions should also be integrated to JavaSMT, as it is quite a useful and important feature.   
 In dReal it is possible to use trigonometric functions, exponentioal functions etc., but JavaSMT does not support those functions. If in the feature JavaSMT does support the usage of those functions, this can be integrated as well for dReal.
