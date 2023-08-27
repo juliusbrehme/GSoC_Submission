@@ -7,7 +7,7 @@ categories: jekyll update
 ## Introduction 
 - Organisation Name: [Software and Computaional Systems Lab, LMU Munich, Germany](https://www.sosy-lab.org/)
 - Project Idea: [JavaSMT](https://github.com/sosy-lab/java-smt) - Integrating the SMT solver [dReal](http://dreal.github.io/) to the framework JavaSMT
-- Mentor Daniel Baier
+- Mentor: Daniel Baier
 - Student: Julius Brehme
 - [Project Proposal](https://www.sosy-lab.org/gsoc/)
 
@@ -21,7 +21,7 @@ The goal of the project was to integrate another SMT solver, [dReal](http://drea
 
 ## Project Goals
 The project has been completed within the duration of GSoC and is ready to be integrated into the `master` branch of [JavaSMT](https://github.com/sosy-lab/java-smt).
-- Milestone 1: The SMT solver [dReal](http://dreal.github.io/) is written in C++ and the first part was to create an interface, so that the solver can be accesed via Java code. Therefore, Java Native Interface (JNI) was used, which allows to use different programming languages in Java. The JNI-Wrapper was created with the help of a programm [SWIG (Simplified Wrapper and Interface Generator)](https://www.swig.org/) and then manually modified.
+- Milestone 1: The SMT solver [dReal](http://dreal.github.io/) is written in C++ and the first part was to create an interface, so that the solver can be accesed via Java code. Therefore, Java Native Interface (JNI) was used, which allows to use different programming languages in Java. The JNI-Wrapper was created with the help of a programm [SWIG (Simplified Wrapper and Interface Generator)](https://www.swig.org/) and was then manually modified.
 - Milestone 2: Testing the native methods of dReal in Java and resolving issues.
 - Milestone 3: Integrating dReal into the JavaSMT framework. Different interfaces and abstract classes needed to be implemented and extended to connect the new solver dReal to JavaSMT. Additionally, an automatic and modular loader was added to load the needed native C++ libraries.
 - Milestone 4: Unit testing the integration of dReal and adjust the test environment for not supported functions.
@@ -38,13 +38,13 @@ To get an overview over the performance of dReal compared to the other solvers, 
     
 ## Future Improvements
 dReal does not support the usage of Uninterpreted Functions. If in the future dReal does support UFs, the functionality of UFs should also be integrated to JavaSMT, as they are a useful and important feature in SMT.   
-In dReal it is possible to use trigonometric functions, exponentioal functions etc., but JavaSMT does not support those functions. If in the feature JavaSMT does support the usage of those functions, this can be integrated as well for dReal. I proposed, that this can be implemented in JavaSMT as well, in my PR.
+In dReal it is possible to use trigonometric functions, exponentioal functions etc., but JavaSMT does not support those functions. If in the feature JavaSMT does support the usage of those functions, this can be integrated as well for dReal. In my PR I proposed, that this can be implemented in JavaSMT as well.
 
 ## Final Words
-As my Google Summer of Code journey comes to a close, I wanted to take a moment to express my gratitude for this incredible experience. These past few months have been amazing experience and I am grateful for the opportunity to have been a part of the Software and Computaional Systems Lab. 
+As my Google Summer of Code journey comes to a close, I wanted to take a moment to express my gratitude for this incredible experience. These past few months have been an amazing experience and I am grateful for the opportunity to have been a part of the Software and Computaional Systems Lab. 
 Reflecting on the past few months, I am amazed at how much I have learned. 
 When I first embarked on this journey, the thought of immersing myself in a vast codebase was both thrilling and daunting. However, under Daniel's guidance and support, I found myself gaining profound insights into the art of reading, understanding, and working with extensive codebases.
 I discovered the significance of comprehensive documentation, version control practices, and code commenting.
-And lastly I acquired valuable skills in effectively immersing myself in new topics.
+Furthermore, I acquired valuable skills in effectively immersing myself in new topics.
 Lastly, I want to extend my gratitude to my mentor Daniel for your incredible guidance and support throughout this journey. Your dedication and expertise have been truly invaluable to me.
 
