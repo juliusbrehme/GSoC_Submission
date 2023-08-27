@@ -17,7 +17,7 @@ SMT solvers are widely utilized in computer-guided verification of computer prog
 JavaSMT has exactly these attributes, a common API for SMT solvers. The framework provides access to a variety of solvers created using Java and other programming languages. Although most solvers share a common set of supported theories and features, their availability of extra theories and performance may differ.
 
 ### Project Description
-The goal of the project was to integrate another SMT solver, [dReal](http://dreal.github.io/), into the JavaSMT framework. The SMT solver dReal is a solver that solves nonlinear formulas over Reals. The solver can handle various nonlinear real functions such as polynomials, trigonometric functions, exponential functions, etc. The solver is implemented in C++. 
+The goal of the project was to integrate another SMT solver, [dReal](http://dreal.github.io/), into the JavaSMT framework. The SMT solver dReal is a solver that solves nonlinear formulas over Reals. The solver can handle various nonlinear real functions such as polynomials, trigonometric functions, exponential functions, etc.
 
 ## Project Goals
 The project has been completed within the duration of GSoC and is ready to be integrated into the `master` branch of [JavaSMT](https://github.com/sosy-lab/java-smt).
